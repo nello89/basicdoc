@@ -5,27 +5,33 @@ extension Text {
 
     func textStyleH1() -> some View {
         return self
-            .font(Font.custom("InterRegular", size: 57))
+            .font(Font.custom("Advent ProBold", size: 57))
     }
 
     func textStyleH2() -> some View {
         return self
-            .font(Font.custom("InterRegular", size: 43))
+            .font(Font.custom("Advent ProBold", size: 43))
     }
 
     func textStyleH3() -> some View {
         return self
-            .font(Font.custom("InterRegular", size: 32))
+            .font(Font.custom("Advent ProBold", size: 32))
     }
 
     func textStyleH4() -> some View {
         return self
-            .font(Font.custom("InterRegular", size: 24))
+            .font(Font.custom("Advent ProBold", size: 24))
     }
 
     func textStyleH5() -> some View {
         return self
-            .font(Font.custom("InterRegular", size: 21))
+            .font(Font.custom("Advent ProBold", size: 21))
+    }
+
+    func textStyleSale() -> some View {
+        return self
+            .font(Font.custom("Advent ProBold", size: 24))
+            .textCase(.uppercase) 
     }
 
     func textStyleLargeLead() -> some View {
@@ -56,11 +62,5 @@ extension Text {
     func textStyleTinyParagraph() -> some View {
         return self
             .font(Font.custom("InterRegular", size: 12))
-    }
-
-    func textStyleSale() -> some View {
-        return self
-            .font(Font.custom("BlatantBold", size: 24))
-            .textCase(.uppercase) 
     }
 }
