@@ -2,9 +2,9 @@
 .typographyH1 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 57px;
   line-height: 64px;
   letter-spacing: 0em; 
@@ -14,9 +14,9 @@
 .typographyH2 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 43px;
   line-height: 50px;
   letter-spacing: 0em; 
@@ -26,9 +26,9 @@
 .typographyH3 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0em; 
@@ -38,9 +38,9 @@
 .typographyH4 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0em; 
@@ -50,9 +50,9 @@
 .typographyH5 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 21px;
   line-height: 29px;
   letter-spacing: 0em; 
@@ -62,7 +62,7 @@
 .typographyLargeLead 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -74,7 +74,7 @@
 .typographyMediumLead 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -86,7 +86,7 @@
 .typographyButtonLabel 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -98,7 +98,7 @@
 .typographyParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -110,7 +110,7 @@
 .typographySmallParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -122,7 +122,7 @@
 .typographyTinyParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -146,9 +146,9 @@
 @mixin typographyH1 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 57px;
   line-height: 64px;
   letter-spacing: 0em; 
@@ -158,9 +158,9 @@
 @mixin typographyH2 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 43px;
   line-height: 50px;
   letter-spacing: 0em; 
@@ -170,9 +170,9 @@
 @mixin typographyH3 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0em; 
@@ -182,9 +182,9 @@
 @mixin typographyH4 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0em; 
@@ -194,9 +194,9 @@
 @mixin typographyH5 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 21px;
   line-height: 29px;
   letter-spacing: 0em; 
@@ -206,7 +206,7 @@
 @mixin typographyLargeLead 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -218,7 +218,7 @@
 @mixin typographyMediumLead 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -230,7 +230,7 @@
 @mixin typographyButtonLabel 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -242,7 +242,7 @@
 @mixin typographyParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -254,7 +254,7 @@
 @mixin typographySmallParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -266,7 +266,7 @@
 @mixin typographyTinyParagraph 
 { 
   
-  font-family: "Blatant";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
