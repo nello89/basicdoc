@@ -5,63 +5,63 @@ extension Text {
 
     func textStyleH1() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 57))
+            .font(Font.custom("Advent ProBold", size: 57))
     }
 
     func textStyleH2() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 43))
+            .font(Font.custom("Advent ProBold", size: 43))
     }
 
     func textStyleH3() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 32))
+            .font(Font.custom("Advent ProBold", size: 32))
     }
 
     func textStyleH4() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 24))
+            .font(Font.custom("Advent ProBold", size: 24))
     }
 
     func textStyleH5() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 21))
+            .font(Font.custom("Advent ProBold", size: 21))
     }
 
     func textStyleLargeLead() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 24))
+            .font(Font.custom("Advent ProRegular", size: 24))
     }
 
     func textStyleMediumLead() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 21))
+            .font(Font.custom("Advent ProRegular", size: 21))
     }
 
     func textStyleButtonLabel() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 21))
+            .font(Font.custom("Advent ProRegular", size: 21))
             .textCase(.uppercase) 
     }
 
     func textStyleParagraph() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 18))
+            .font(Font.custom("Advent ProRegular", size: 18))
     }
 
     func textStyleSmallParagraph() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 16))
+            .font(Font.custom("Advent ProRegular", size: 16))
     }
 
     func textStyleTinyParagraph() -> some View {
         return self
-            .font(Font.custom("BlatantRegular", size: 12))
+            .font(Font.custom("Advent ProRegular", size: 12))
     }
 
     func textStyleSale() -> some View {
         return self
-            .font(Font.custom("BlatantBold", size: 24))
+            .font(Font.custom("Advent ProBold", size: 24))
             .textCase(.uppercase) 
     }
 }
