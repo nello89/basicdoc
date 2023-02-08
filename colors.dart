@@ -433,11 +433,59 @@ class AppColors {
   
   static const paletteNeutralNeutral800 = Color(0xff384141); 
   
-  static const paletteNeutralNeutral1100 = Color(0xff040404); 
+  static const paletteNeutralNeutral900 = Color(0xff293333); 
   
   static const paletteNeutralNeutral1000 = Color(0xff182020); 
   
-  static const paletteNeutralNeutral900 = Color(0xff293333); 
+  static const paletteNeutralNeutral1100 = Color(0xff040404); 
+  
+  static const palettePurplePurple1100 = Color(0xff1d1e36); 
+  
+  static const palettePurplePurple1000 = Color(0xff2b2667); 
+  
+  static const palettePurplePurple900 = Color(0xff453e96); 
+  
+  static const palettePurplePurple800 = Color(0xff5a52b4); 
+  
+  static const palettePurplePurple700 = Color(0xff6b62cc); 
+  
+  static const palettePurplePurple600 = Color(0xff7d73e2); 
+  
+  static const palettePurplePurple500 = Color(0xff8d84ed); 
+  
+  static const palettePurplePurple400 = Color(0xff9e95ec); 
+  
+  static const palettePurplePurple300 = Color(0xffc0c2f3); 
+  
+  static const palettePurplePurple200 = Color(0xffd8d8f6); 
+  
+  static const palettePurplePurple100 = Color(0xffeaeaf8); 
+  
+  static const palettePurplePurple0 = Color(0xfff2f2f8); 
+  
+  static const palettePurplePurple0 = Color(0xfff2f2f8); 
+  
+  static const palettePurplePurple100 = Color(0xffeaeaf8); 
+  
+  static const palettePurplePurple200 = Color(0xffd8d8f6); 
+  
+  static const palettePurplePurple300 = Color(0xffc0c2f3); 
+  
+  static const palettePurplePurple600 = Color(0xff7d73e2); 
+  
+  static const palettePurplePurple700 = Color(0xff6b62cc); 
+  
+  static const palettePurplePurple800 = Color(0xff5a52b4); 
+  
+  static const palettePurplePurple900 = Color(0xff453e96); 
+  
+  static const palettePurplePurple1100 = Color(0xff1d1e36); 
+  
+  static const palettePurplePurple1000 = Color(0xff2b2667); 
+  
+  static const palettePurplePurple500 = Color(0xff8d84ed); 
+  
+  static const palettePurplePurple400 = Color(0xff9e95ec); 
   
   /// Darkest aqua there is
   static const paletteAquaAqua1100 = Color(0xff0b2737); 
@@ -465,6 +513,18 @@ class AppColors {
   
   static const paletteAquaAqua0 = Color(0xffe0fbfb); 
   
+  static const paletteAquaAqua100 = Color(0xffd0f7f8); 
+  
+  static const paletteAquaAqua200 = Color(0xffb5f0f1); 
+  
+  static const paletteAquaAqua300 = Color(0xff91e2e1); 
+  
+  static const paletteAquaAqua400 = Color(0xff6ad3df); 
+  
+  static const paletteAquaAqua500 = Color(0xff54b5cb); 
+  
+  static const paletteAquaAqua700 = Color(0xff3a8396); 
+  
   /// Darkest aqua there is
   static const paletteAquaAqua1100 = Color(0xff0b2737); 
   
@@ -475,19 +535,7 @@ class AppColors {
   
   static const paletteAquaAqua800 = Color(0xff316c82); 
   
-  static const paletteAquaAqua700 = Color(0xff3a8396); 
-  
   static const paletteAquaAqua600 = Color(0xff4295ab); 
-  
-  static const paletteAquaAqua500 = Color(0xff54b5cb); 
-  
-  static const paletteAquaAqua400 = Color(0xff6ad3df); 
-  
-  static const paletteAquaAqua300 = Color(0xff91e2e1); 
-  
-  static const paletteAquaAqua200 = Color(0xffb5f0f1); 
-  
-  static const paletteAquaAqua100 = Color(0xffd0f7f8); 
   
   static const paletteAquaAqua0 = Color(0xffe0fbfb); 
   
@@ -588,54 +636,6 @@ class AppColors {
   static const paletteGreenGreen1000 = Color(0xff1c4130); 
   
   static const paletteGreenGreen1100 = Color(0xff0e2a21); 
-  
-  static const palettePurplePurple1100 = Color(0xff1d1e36); 
-  
-  static const palettePurplePurple1000 = Color(0xff2b2667); 
-  
-  static const palettePurplePurple900 = Color(0xff453e96); 
-  
-  static const palettePurplePurple800 = Color(0xff5a52b4); 
-  
-  static const palettePurplePurple700 = Color(0xff6b62cc); 
-  
-  static const palettePurplePurple600 = Color(0xff7d73e2); 
-  
-  static const palettePurplePurple500 = Color(0xff8d84ed); 
-  
-  static const palettePurplePurple400 = Color(0xff9e95ec); 
-  
-  static const palettePurplePurple300 = Color(0xffc0c2f3); 
-  
-  static const palettePurplePurple200 = Color(0xffd8d8f6); 
-  
-  static const palettePurplePurple100 = Color(0xffeaeaf8); 
-  
-  static const palettePurplePurple0 = Color(0xfff2f2f8); 
-  
-  static const palettePurplePurple1100 = Color(0xff1d1e36); 
-  
-  static const palettePurplePurple1000 = Color(0xff2b2667); 
-  
-  static const palettePurplePurple900 = Color(0xff453e96); 
-  
-  static const palettePurplePurple800 = Color(0xff5a52b4); 
-  
-  static const palettePurplePurple700 = Color(0xff6b62cc); 
-  
-  static const palettePurplePurple600 = Color(0xff7d73e2); 
-  
-  static const palettePurplePurple500 = Color(0xff8d84ed); 
-  
-  static const palettePurplePurple400 = Color(0xff9e95ec); 
-  
-  static const palettePurplePurple300 = Color(0xffc0c2f3); 
-  
-  static const palettePurplePurple200 = Color(0xffd8d8f6); 
-  
-  static const palettePurplePurple100 = Color(0xffeaeaf8); 
-  
-  static const palettePurplePurple0 = Color(0xfff2f2f8); 
   
   static const paletteMagentaMagenta1100 = Color(0xff271a2c); 
   
