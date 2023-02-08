@@ -239,9 +239,34 @@
     <color name="palette_neutral_neutral_600">#ff70797a</color>
     <color name="palette_neutral_neutral_700">#ff545e5f</color>
     <color name="palette_neutral_neutral_800">#ff384141</color>
-    <color name="palette_neutral_neutral_1100">#ff040404</color>
-    <color name="palette_neutral_neutral_1000">#ff182020</color>
     <color name="palette_neutral_neutral_900">#ff293333</color>
+    <color name="palette_neutral_neutral_1000">#ff182020</color>
+    <color name="palette_neutral_neutral_1100">#ff040404</color>
+
+    <color name="palette_purple_purple_1100">#ff1d1e36</color>
+    <color name="palette_purple_purple_1000">#ff2b2667</color>
+    <color name="palette_purple_purple_900">#ff453e96</color>
+    <color name="palette_purple_purple_800">#ff5a52b4</color>
+    <color name="palette_purple_purple_700">#ff6b62cc</color>
+    <color name="palette_purple_purple_600">#ff7d73e2</color>
+    <color name="palette_purple_purple_500">#ff8d84ed</color>
+    <color name="palette_purple_purple_400">#ff9e95ec</color>
+    <color name="palette_purple_purple_300">#ffc0c2f3</color>
+    <color name="palette_purple_purple_200">#ffd8d8f6</color>
+    <color name="palette_purple_purple_100">#ffeaeaf8</color>
+    <color name="palette_purple_purple_0">#fff2f2f8</color>
+    <color name="palette_purple_purple_0">#fff2f2f8</color>
+    <color name="palette_purple_purple_100">#ffeaeaf8</color>
+    <color name="palette_purple_purple_200">#ffd8d8f6</color>
+    <color name="palette_purple_purple_300">#ffc0c2f3</color>
+    <color name="palette_purple_purple_600">#ff7d73e2</color>
+    <color name="palette_purple_purple_700">#ff6b62cc</color>
+    <color name="palette_purple_purple_800">#ff5a52b4</color>
+    <color name="palette_purple_purple_900">#ff453e96</color>
+    <color name="palette_purple_purple_1100">#ff1d1e36</color>
+    <color name="palette_purple_purple_1000">#ff2b2667</color>
+    <color name="palette_purple_purple_500">#ff8d84ed</color>
+    <color name="palette_purple_purple_400">#ff9e95ec</color>
 
     <!-- 
         Darkest aqua there is 
@@ -261,6 +286,12 @@
     <color name="palette_aqua_aqua_200">#ffb5f0f1</color>
     <color name="palette_aqua_aqua_100">#ffd0f7f8</color>
     <color name="palette_aqua_aqua_0">#ffe0fbfb</color>
+    <color name="palette_aqua_aqua_100">#ffd0f7f8</color>
+    <color name="palette_aqua_aqua_200">#ffb5f0f1</color>
+    <color name="palette_aqua_aqua_300">#ff91e2e1</color>
+    <color name="palette_aqua_aqua_400">#ff6ad3df</color>
+    <color name="palette_aqua_aqua_500">#ff54b5cb</color>
+    <color name="palette_aqua_aqua_700">#ff3a8396</color>
     <!-- 
         Darkest aqua there is 
     -->
@@ -271,13 +302,7 @@
     <color name="palette_aqua_aqua_1000">#ff193c4d</color>
     <color name="palette_aqua_aqua_900">#ff265d71</color>
     <color name="palette_aqua_aqua_800">#ff316c82</color>
-    <color name="palette_aqua_aqua_700">#ff3a8396</color>
     <color name="palette_aqua_aqua_600">#ff4295ab</color>
-    <color name="palette_aqua_aqua_500">#ff54b5cb</color>
-    <color name="palette_aqua_aqua_400">#ff6ad3df</color>
-    <color name="palette_aqua_aqua_300">#ff91e2e1</color>
-    <color name="palette_aqua_aqua_200">#ffb5f0f1</color>
-    <color name="palette_aqua_aqua_100">#ffd0f7f8</color>
     <color name="palette_aqua_aqua_0">#ffe0fbfb</color>
 
     <color name="palette_blue_blue_1100">#ff082036</color>
@@ -335,31 +360,6 @@
     <color name="palette_green_green_900">#ff2d6944</color>
     <color name="palette_green_green_1000">#ff1c4130</color>
     <color name="palette_green_green_1100">#ff0e2a21</color>
-
-    <color name="palette_purple_purple_1100">#ff1d1e36</color>
-    <color name="palette_purple_purple_1000">#ff2b2667</color>
-    <color name="palette_purple_purple_900">#ff453e96</color>
-    <color name="palette_purple_purple_800">#ff5a52b4</color>
-    <color name="palette_purple_purple_700">#ff6b62cc</color>
-    <color name="palette_purple_purple_600">#ff7d73e2</color>
-    <color name="palette_purple_purple_500">#ff8d84ed</color>
-    <color name="palette_purple_purple_400">#ff9e95ec</color>
-    <color name="palette_purple_purple_300">#ffc0c2f3</color>
-    <color name="palette_purple_purple_200">#ffd8d8f6</color>
-    <color name="palette_purple_purple_100">#ffeaeaf8</color>
-    <color name="palette_purple_purple_0">#fff2f2f8</color>
-    <color name="palette_purple_purple_1100">#ff1d1e36</color>
-    <color name="palette_purple_purple_1000">#ff2b2667</color>
-    <color name="palette_purple_purple_900">#ff453e96</color>
-    <color name="palette_purple_purple_800">#ff5a52b4</color>
-    <color name="palette_purple_purple_700">#ff6b62cc</color>
-    <color name="palette_purple_purple_600">#ff7d73e2</color>
-    <color name="palette_purple_purple_500">#ff8d84ed</color>
-    <color name="palette_purple_purple_400">#ff9e95ec</color>
-    <color name="palette_purple_purple_300">#ffc0c2f3</color>
-    <color name="palette_purple_purple_200">#ffd8d8f6</color>
-    <color name="palette_purple_purple_100">#ffeaeaf8</color>
-    <color name="palette_purple_purple_0">#fff2f2f8</color>
 
     <color name="palette_magenta_magenta_1100">#ff271a2c</color>
     <color name="palette_magenta_magenta_1000">#ff3f1a4e</color>
