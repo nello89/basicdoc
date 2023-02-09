@@ -314,6 +314,7 @@ extension Color {
         let paletteAquaAqua300 = Color(.sRGB, red: 145/255, green: 226/255, blue: 225/255, opacity: 1) 
         let paletteAquaAqua400 = Color(.sRGB, red: 106/255, green: 211/255, blue: 223/255, opacity: 1) 
         let paletteAquaAqua500 = Color(.sRGB, red: 84/255, green: 181/255, blue: 203/255, opacity: 1) 
+        let paletteAquaAqua600 = Color(.sRGB, red: 66/255, green: 149/255, blue: 171/255, opacity: 1) 
         let paletteAquaAqua700 = Color(.sRGB, red: 58/255, green: 131/255, blue: 150/255, opacity: 1) 
         let paletteAquaAqua800 = Color(.sRGB, red: 49/255, green: 108/255, blue: 130/255, opacity: 1) 
 
@@ -323,7 +324,6 @@ extension Color {
         /// Slightly less aquatic, still deep as an ocean
         let paletteAquaAqua1000 = Color(.sRGB, red: 25/255, green: 60/255, blue: 77/255, opacity: 1) 
         let paletteAquaAqua900 = Color(.sRGB, red: 38/255, green: 93/255, blue: 113/255, opacity: 1) 
-        let paletteAquaAqua600 = Color(.sRGB, red: 66/255, green: 149/255, blue: 171/255, opacity: 1) 
 
         // Blue
         let paletteBlueBlue1100 = Color(.sRGB, red: 8/255, green: 32/255, blue: 54/255, opacity: 1) 
