@@ -513,6 +513,8 @@ class AppColors {
   
   static const paletteAquaAqua0 = Color(0xffe0fbfb); 
   
+  static const paletteAquaAqua0 = Color(0xffe0fbfb); 
+  
   static const paletteAquaAqua100 = Color(0xffd0f7f8); 
   
   static const paletteAquaAqua200 = Color(0xffb5f0f1); 
@@ -536,8 +538,6 @@ class AppColors {
   static const paletteAquaAqua900 = Color(0xff265d71); 
   
   static const paletteAquaAqua600 = Color(0xff4295ab); 
-  
-  static const paletteAquaAqua0 = Color(0xffe0fbfb); 
   
   static const paletteBlueBlue1100 = Color(0xff082036); 
   
