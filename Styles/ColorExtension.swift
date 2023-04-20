@@ -6,6 +6,7 @@ extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
+        let newStyle = Color(.sRGB, red: 14/255, green: 42/255, blue: 33/255, opacity: 1) 
         let superRed = Color(.sRGB, red: 255/255, green: 0/255, blue: 0/255, opacity: 1) 
         let strangeGreen = Color(.sRGB, red: 0/255, green: 255/255, blue: 51/255, opacity: 1) 
 
@@ -17,93 +18,33 @@ extension Color {
         let specialRatingRatingOff = Color(.sRGB, red: 223/255, green: 225/255, blue: 225/255, opacity: 1) 
         let specialRatingRatingHoverOff = Color(.sRGB, red: 246/255, green: 190/255, blue: 65/255, opacity: 1) 
 
-        // Semantic
-
-        // Sale
-        let semanticSaleSale70Background = Color(.sRGB, red: 172/255, green: 125/255, blue: 19/255, opacity: 1) 
-        let semanticSaleSale50Background = Color(.sRGB, red: 181/255, green: 29/255, blue: 78/255, opacity: 1) 
-        let semanticSaleSale30Background = Color(.sRGB, red: 88/255, green: 105/255, blue: 193/255, opacity: 1) 
-        let semanticSaleSaleColor = Color(.sRGB, red: 183/255, green: 183/255, blue: 183/255, opacity: 1) 
-
-        // Primary
-        let semanticPrimaryPrimaryActiveBackground = Color(.sRGB, red: 69/255, green: 62/255, blue: 150/255, opacity: 1) 
-        let semanticPrimaryPrimaryHoverBackground = Color(.sRGB, red: 90/255, green: 82/255, blue: 180/255, opacity: 1) 
-        let semanticPrimaryPrimaryHoverColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        let semanticPrimaryPrimaryBackground = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
-        let semanticPrimaryPrimaryColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        let semanticPrimaryPrimaryInnactiveBackground = Color(.sRGB, red: 216/255, green: 216/255, blue: 246/255, opacity: 1) 
-        let semanticPrimaryPrimaryBorder = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
-        let semanticPrimaryHoverInnactiveBackground = Color(.sRGB, red: 192/255, green: 194/255, blue: 243/255, opacity: 1) 
-        let semanticPrimaryCtaPrimaryActiveBackground = Color(.sRGB, red: 223/255, green: 225/255, blue: 225/255, opacity: 1) 
-        let semanticPrimaryHoverInnactiveBackground = Color(.sRGB, red: 192/255, green: 194/255, blue: 243/255, opacity: 1) 
-        let semanticPrimaryPrimaryBorder = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
-        let semanticPrimaryPrimaryColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        let semanticPrimaryPrimaryBackground = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
-        let semanticPrimaryPrimaryHoverColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        let semanticPrimaryPrimaryHoverBackground = Color(.sRGB, red: 90/255, green: 82/255, blue: 180/255, opacity: 1) 
-        let semanticPrimaryPrimaryActiveBackground = Color(.sRGB, red: 69/255, green: 62/255, blue: 150/255, opacity: 1) 
-
-        // Opportunity
-        let semanticOpportunityOpportunityColor = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
-        let semanticOpportunityOpportunityIcon = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
-        let semanticOpportunityOpportunityBorder = Color(.sRGB, red: 106/255, green: 221/255, blue: 198/255, opacity: 1) 
-        let semanticOpportunityOpportunityBackground = Color(.sRGB, red: 213/255, green: 246/255, blue: 239/255, opacity: 1) 
-        let semanticOpportunityOpportunityBackground = Color(.sRGB, red: 213/255, green: 246/255, blue: 239/255, opacity: 1) 
-        let semanticOpportunityOpportunityBorder = Color(.sRGB, red: 106/255, green: 221/255, blue: 198/255, opacity: 1) 
-        let semanticOpportunityOpportunityIcon = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
-        let semanticOpportunityOpportunityColor = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
-
-        // Info
-        let semanticInfoInfoColor = Color(.sRGB, red: 58/255, green: 121/255, blue: 189/255, opacity: 1) 
-        let semanticInfoInfoIcon = Color(.sRGB, red: 48/255, green: 108/255, blue: 165/255, opacity: 1) 
-        let semanticInfoInfoBorder = Color(.sRGB, red: 106/255, green: 172/255, blue: 239/255, opacity: 1) 
-        let semanticInfoInfoBackground = Color(.sRGB, red: 224/255, green: 241/255, blue: 254/255, opacity: 1) 
-        let semanticInfoInfoBackground = Color(.sRGB, red: 224/255, green: 241/255, blue: 254/255, opacity: 1) 
-        let semanticInfoInfoBorder = Color(.sRGB, red: 106/255, green: 172/255, blue: 239/255, opacity: 1) 
-        let semanticInfoInfoIcon = Color(.sRGB, red: 48/255, green: 108/255, blue: 165/255, opacity: 1) 
-        let semanticInfoInfoColor = Color(.sRGB, red: 58/255, green: 121/255, blue: 189/255, opacity: 1) 
-
-        // Success
-        let semanticSuccessSuccessColor = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
-        let semanticSuccessSuccessIcon = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
-        let semanticSuccessSuccessBorder = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
-        let semanticSuccessSuccessBackground = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
-        let semanticSuccessSuccessBackground = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
-        let semanticSuccessSuccessBorder = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
-        let semanticSuccessSuccessIcon = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
-        let semanticSuccessSuccessColor = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
-
-        // Warning
-        let semanticWarningWarningColor = Color(.sRGB, red: 139/255, green: 79/255, blue: 31/255, opacity: 1) 
-        let semanticWarningWarningIcon = Color(.sRGB, red: 186/255, green: 117/255, blue: 6/255, opacity: 1) 
-        let semanticWarningWarningBorder = Color(.sRGB, red: 250/255, green: 217/255, blue: 97/255, opacity: 1) 
-        let semanticWarningWarningBackground = Color(.sRGB, red: 251/255, green: 238/255, blue: 209/255, opacity: 1) 
-        let semanticWarningWarningBackground = Color(.sRGB, red: 251/255, green: 238/255, blue: 209/255, opacity: 1) 
-        let semanticWarningWarningBorder = Color(.sRGB, red: 250/255, green: 217/255, blue: 97/255, opacity: 1) 
-        let semanticWarningWarningIcon = Color(.sRGB, red: 186/255, green: 117/255, blue: 6/255, opacity: 1) 
-        let semanticWarningWarningColor = Color(.sRGB, red: 139/255, green: 79/255, blue: 31/255, opacity: 1) 
-
-        // Error
-        let semanticErrorErrorColor = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
-        let semanticErrorErrorIcon = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
-        let semanticErrorErrorBorder = Color(.sRGB, red: 239/255, green: 134/255, blue: 116/255, opacity: 1) 
-        let semanticErrorErrorBackground = Color(.sRGB, red: 248/255, green: 215/255, blue: 211/255, opacity: 1) 
-        let semanticErrorErrorBackground = Color(.sRGB, red: 248/255, green: 215/255, blue: 211/255, opacity: 1) 
-        let semanticErrorErrorBorder = Color(.sRGB, red: 239/255, green: 134/255, blue: 116/255, opacity: 1) 
-        let semanticErrorErrorIcon = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
-        let semanticErrorErrorColor = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
-
-        // Text
-        let semanticTextTextInverse = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        let semanticTextTextSubtext = Color(.sRGB, red: 84/255, green: 94/255, blue: 95/255, opacity: 1) 
-        let semanticTextTextHeadline = Color(.sRGB, red: 41/255, green: 51/255, blue: 51/255, opacity: 1) 
-        let semanticTextTextBody = Color(.sRGB, red: 56/255, green: 65/255, blue: 65/255, opacity: 1) 
-        let semanticTextTextBody = Color(.sRGB, red: 56/255, green: 65/255, blue: 65/255, opacity: 1) 
-        let semanticTextTextHeadline = Color(.sRGB, red: 41/255, green: 51/255, blue: 51/255, opacity: 1) 
-        let semanticTextTextSubtext = Color(.sRGB, red: 84/255, green: 94/255, blue: 95/255, opacity: 1) 
-        let semanticTextTextInverse = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-
         // Palette
+
+        // Green
+        let paletteGreenGreen1000 = Color(.sRGB, red: 28/255, green: 65/255, blue: 48/255, opacity: 1) 
+        let paletteGreenGreen900 = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
+        let paletteGreenGreen800 = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
+        let paletteGreenGreen700 = Color(.sRGB, red: 76/255, green: 164/255, blue: 90/255, opacity: 1) 
+        let paletteGreenGreen600 = Color(.sRGB, red: 90/255, green: 178/255, blue: 97/255, opacity: 1) 
+        let paletteGreenGreen500 = Color(.sRGB, red: 120/255, green: 199/255, blue: 103/255, opacity: 1) 
+        let paletteGreenGreen400 = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
+        let paletteGreenGreen300 = Color(.sRGB, red: 169/255, green: 226/255, blue: 151/255, opacity: 1) 
+        let paletteGreenGreen200 = Color(.sRGB, red: 204/255, green: 240/255, blue: 194/255, opacity: 1) 
+        let paletteGreenGreen100 = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
+        let paletteGreenGreen0 = Color(.sRGB, red: 238/255, green: 249/255, blue: 236/255, opacity: 1) 
+        let paletteGreenGreen1100 = Color(.sRGB, red: 14/255, green: 42/255, blue: 33/255, opacity: 1) 
+        let paletteGreenGreen1100 = Color(.sRGB, red: 14/255, green: 42/255, blue: 33/255, opacity: 1) 
+        let paletteGreenGreen0 = Color(.sRGB, red: 238/255, green: 249/255, blue: 236/255, opacity: 1) 
+        let paletteGreenGreen100 = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
+        let paletteGreenGreen200 = Color(.sRGB, red: 204/255, green: 240/255, blue: 194/255, opacity: 1) 
+        let paletteGreenGreen300 = Color(.sRGB, red: 169/255, green: 226/255, blue: 151/255, opacity: 1) 
+        let paletteGreenGreen400 = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
+        let paletteGreenGreen500 = Color(.sRGB, red: 120/255, green: 199/255, blue: 103/255, opacity: 1) 
+        let paletteGreenGreen600 = Color(.sRGB, red: 90/255, green: 178/255, blue: 97/255, opacity: 1) 
+        let paletteGreenGreen700 = Color(.sRGB, red: 76/255, green: 164/255, blue: 90/255, opacity: 1) 
+        let paletteGreenGreen800 = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
+        let paletteGreenGreen900 = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
+        let paletteGreenGreen1000 = Color(.sRGB, red: 28/255, green: 65/255, blue: 48/255, opacity: 1) 
 
         // Yellow
         let paletteYellowYellow1100 = Color(.sRGB, red: 42/255, green: 27/255, blue: 8/255, opacity: 1) 
@@ -282,14 +223,14 @@ extension Color {
         let palettePurplePurple100 = Color(.sRGB, red: 234/255, green: 234/255, blue: 248/255, opacity: 1) 
         let palettePurplePurple200 = Color(.sRGB, red: 216/255, green: 216/255, blue: 246/255, opacity: 1) 
         let palettePurplePurple300 = Color(.sRGB, red: 192/255, green: 194/255, blue: 243/255, opacity: 1) 
+        let palettePurplePurple400 = Color(.sRGB, red: 158/255, green: 149/255, blue: 236/255, opacity: 1) 
         let palettePurplePurple600 = Color(.sRGB, red: 125/255, green: 115/255, blue: 226/255, opacity: 1) 
         let palettePurplePurple700 = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
         let palettePurplePurple800 = Color(.sRGB, red: 90/255, green: 82/255, blue: 180/255, opacity: 1) 
         let palettePurplePurple900 = Color(.sRGB, red: 69/255, green: 62/255, blue: 150/255, opacity: 1) 
-        let palettePurplePurple1100 = Color(.sRGB, red: 29/255, green: 30/255, blue: 54/255, opacity: 1) 
         let palettePurplePurple1000 = Color(.sRGB, red: 43/255, green: 38/255, blue: 103/255, opacity: 1) 
+        let palettePurplePurple1100 = Color(.sRGB, red: 29/255, green: 30/255, blue: 54/255, opacity: 1) 
         let palettePurplePurple500 = Color(.sRGB, red: 141/255, green: 132/255, blue: 237/255, opacity: 1) 
-        let palettePurplePurple400 = Color(.sRGB, red: 158/255, green: 149/255, blue: 236/255, opacity: 1) 
 
         // Aqua
 
@@ -318,11 +259,11 @@ extension Color {
         let paletteAquaAqua700 = Color(.sRGB, red: 58/255, green: 131/255, blue: 150/255, opacity: 1) 
         let paletteAquaAqua800 = Color(.sRGB, red: 49/255, green: 108/255, blue: 130/255, opacity: 1) 
 
-        /// Darkest aqua there is
-        let paletteAquaAqua1100 = Color(.sRGB, red: 11/255, green: 39/255, blue: 55/255, opacity: 1) 
-
         /// Slightly less aquatic, still deep as an ocean
         let paletteAquaAqua1000 = Color(.sRGB, red: 25/255, green: 60/255, blue: 77/255, opacity: 1) 
+
+        /// Darkest aqua there is
+        let paletteAquaAqua1100 = Color(.sRGB, red: 11/255, green: 39/255, blue: 55/255, opacity: 1) 
         let paletteAquaAqua900 = Color(.sRGB, red: 38/255, green: 93/255, blue: 113/255, opacity: 1) 
 
         // Blue
@@ -355,32 +296,6 @@ extension Color {
         let paletteBlueBlue1000 = Color(.sRGB, red: 24/255, green: 57/255, blue: 93/255, opacity: 1) 
         let paletteBlueBlue1100 = Color(.sRGB, red: 8/255, green: 32/255, blue: 54/255, opacity: 1) 
 
-        // Green
-        let paletteGreenGreen1100 = Color(.sRGB, red: 14/255, green: 42/255, blue: 33/255, opacity: 1) 
-        let paletteGreenGreen1000 = Color(.sRGB, red: 28/255, green: 65/255, blue: 48/255, opacity: 1) 
-        let paletteGreenGreen900 = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
-        let paletteGreenGreen800 = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
-        let paletteGreenGreen700 = Color(.sRGB, red: 76/255, green: 164/255, blue: 90/255, opacity: 1) 
-        let paletteGreenGreen600 = Color(.sRGB, red: 90/255, green: 178/255, blue: 97/255, opacity: 1) 
-        let paletteGreenGreen500 = Color(.sRGB, red: 120/255, green: 199/255, blue: 103/255, opacity: 1) 
-        let paletteGreenGreen400 = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
-        let paletteGreenGreen300 = Color(.sRGB, red: 169/255, green: 226/255, blue: 151/255, opacity: 1) 
-        let paletteGreenGreen200 = Color(.sRGB, red: 204/255, green: 240/255, blue: 194/255, opacity: 1) 
-        let paletteGreenGreen100 = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
-        let paletteGreenGreen0 = Color(.sRGB, red: 238/255, green: 249/255, blue: 236/255, opacity: 1) 
-        let paletteGreenGreen0 = Color(.sRGB, red: 238/255, green: 249/255, blue: 236/255, opacity: 1) 
-        let paletteGreenGreen100 = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
-        let paletteGreenGreen200 = Color(.sRGB, red: 204/255, green: 240/255, blue: 194/255, opacity: 1) 
-        let paletteGreenGreen300 = Color(.sRGB, red: 169/255, green: 226/255, blue: 151/255, opacity: 1) 
-        let paletteGreenGreen400 = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
-        let paletteGreenGreen500 = Color(.sRGB, red: 120/255, green: 199/255, blue: 103/255, opacity: 1) 
-        let paletteGreenGreen600 = Color(.sRGB, red: 90/255, green: 178/255, blue: 97/255, opacity: 1) 
-        let paletteGreenGreen700 = Color(.sRGB, red: 76/255, green: 164/255, blue: 90/255, opacity: 1) 
-        let paletteGreenGreen800 = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
-        let paletteGreenGreen900 = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
-        let paletteGreenGreen1000 = Color(.sRGB, red: 28/255, green: 65/255, blue: 48/255, opacity: 1) 
-        let paletteGreenGreen1100 = Color(.sRGB, red: 14/255, green: 42/255, blue: 33/255, opacity: 1) 
-
         // Magenta
         let paletteMagentaMagenta1100 = Color(.sRGB, red: 39/255, green: 26/255, blue: 44/255, opacity: 1) 
         let paletteMagentaMagenta1000 = Color(.sRGB, red: 63/255, green: 26/255, blue: 78/255, opacity: 1) 
@@ -406,5 +321,91 @@ extension Color {
         let paletteMagentaMagenta900 = Color(.sRGB, red: 100/255, green: 42/255, blue: 115/255, opacity: 1) 
         let paletteMagentaMagenta1000 = Color(.sRGB, red: 63/255, green: 26/255, blue: 78/255, opacity: 1) 
         let paletteMagentaMagenta1100 = Color(.sRGB, red: 39/255, green: 26/255, blue: 44/255, opacity: 1) 
+
+        // Semantic
+
+        // Sale
+        let semanticSaleSale70Background = Color(.sRGB, red: 172/255, green: 125/255, blue: 19/255, opacity: 1) 
+        let semanticSaleSale50Background = Color(.sRGB, red: 181/255, green: 29/255, blue: 78/255, opacity: 1) 
+        let semanticSaleSale30Background = Color(.sRGB, red: 88/255, green: 105/255, blue: 193/255, opacity: 1) 
+        let semanticSaleSaleColor = Color(.sRGB, red: 183/255, green: 183/255, blue: 183/255, opacity: 1) 
+
+        // Primary
+        let semanticPrimaryPrimaryActiveBackground = Color(.sRGB, red: 69/255, green: 62/255, blue: 150/255, opacity: 1) 
+        let semanticPrimaryPrimaryHoverBackground = Color(.sRGB, red: 90/255, green: 82/255, blue: 180/255, opacity: 1) 
+        let semanticPrimaryPrimaryHoverColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        let semanticPrimaryPrimaryBackground = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
+        let semanticPrimaryPrimaryColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        let semanticPrimaryPrimaryInnactiveBackground = Color(.sRGB, red: 216/255, green: 216/255, blue: 246/255, opacity: 1) 
+        let semanticPrimaryPrimaryBorder = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
+        let semanticPrimaryHoverInnactiveBackground = Color(.sRGB, red: 192/255, green: 194/255, blue: 243/255, opacity: 1) 
+        let semanticPrimaryCtaPrimaryActiveBackground = Color(.sRGB, red: 223/255, green: 225/255, blue: 225/255, opacity: 1) 
+        let semanticPrimaryHoverInnactiveBackground = Color(.sRGB, red: 192/255, green: 194/255, blue: 243/255, opacity: 1) 
+        let semanticPrimaryPrimaryBorder = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
+        let semanticPrimaryPrimaryColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        let semanticPrimaryPrimaryBackground = Color(.sRGB, red: 107/255, green: 98/255, blue: 204/255, opacity: 1) 
+        let semanticPrimaryPrimaryHoverColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        let semanticPrimaryPrimaryHoverBackground = Color(.sRGB, red: 90/255, green: 82/255, blue: 180/255, opacity: 1) 
+        let semanticPrimaryPrimaryActiveBackground = Color(.sRGB, red: 69/255, green: 62/255, blue: 150/255, opacity: 1) 
+
+        // Opportunity
+        let semanticOpportunityOpportunityColor = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
+        let semanticOpportunityOpportunityIcon = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
+        let semanticOpportunityOpportunityBorder = Color(.sRGB, red: 106/255, green: 221/255, blue: 198/255, opacity: 1) 
+        let semanticOpportunityOpportunityBackground = Color(.sRGB, red: 213/255, green: 246/255, blue: 239/255, opacity: 1) 
+        let semanticOpportunityOpportunityBackground = Color(.sRGB, red: 213/255, green: 246/255, blue: 239/255, opacity: 1) 
+        let semanticOpportunityOpportunityBorder = Color(.sRGB, red: 106/255, green: 221/255, blue: 198/255, opacity: 1) 
+        let semanticOpportunityOpportunityIcon = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
+        let semanticOpportunityOpportunityColor = Color(.sRGB, red: 53/255, green: 122/255, blue: 123/255, opacity: 1) 
+
+        // Info
+        let semanticInfoInfoColor = Color(.sRGB, red: 58/255, green: 121/255, blue: 189/255, opacity: 1) 
+        let semanticInfoInfoIcon = Color(.sRGB, red: 48/255, green: 108/255, blue: 165/255, opacity: 1) 
+        let semanticInfoInfoBorder = Color(.sRGB, red: 106/255, green: 172/255, blue: 239/255, opacity: 1) 
+        let semanticInfoInfoBackground = Color(.sRGB, red: 224/255, green: 241/255, blue: 254/255, opacity: 1) 
+        let semanticInfoInfoBackground = Color(.sRGB, red: 224/255, green: 241/255, blue: 254/255, opacity: 1) 
+        let semanticInfoInfoBorder = Color(.sRGB, red: 106/255, green: 172/255, blue: 239/255, opacity: 1) 
+        let semanticInfoInfoIcon = Color(.sRGB, red: 48/255, green: 108/255, blue: 165/255, opacity: 1) 
+        let semanticInfoInfoColor = Color(.sRGB, red: 58/255, green: 121/255, blue: 189/255, opacity: 1) 
+
+        // Success
+        let semanticSuccessSuccessColor = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
+        let semanticSuccessSuccessIcon = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
+        let semanticSuccessSuccessBorder = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
+        let semanticSuccessSuccessBackground = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
+        let semanticSuccessSuccessBackground = Color(.sRGB, red: 221/255, green: 243/255, blue: 217/255, opacity: 1) 
+        let semanticSuccessSuccessBorder = Color(.sRGB, red: 143/255, green: 218/255, blue: 117/255, opacity: 1) 
+        let semanticSuccessSuccessIcon = Color(.sRGB, red: 60/255, green: 136/255, blue: 77/255, opacity: 1) 
+        let semanticSuccessSuccessColor = Color(.sRGB, red: 45/255, green: 105/255, blue: 68/255, opacity: 1) 
+
+        // Warning
+        let semanticWarningWarningColor = Color(.sRGB, red: 139/255, green: 79/255, blue: 31/255, opacity: 1) 
+        let semanticWarningWarningIcon = Color(.sRGB, red: 186/255, green: 117/255, blue: 6/255, opacity: 1) 
+        let semanticWarningWarningBorder = Color(.sRGB, red: 250/255, green: 217/255, blue: 97/255, opacity: 1) 
+        let semanticWarningWarningBackground = Color(.sRGB, red: 251/255, green: 238/255, blue: 209/255, opacity: 1) 
+        let semanticWarningWarningBackground = Color(.sRGB, red: 251/255, green: 238/255, blue: 209/255, opacity: 1) 
+        let semanticWarningWarningBorder = Color(.sRGB, red: 250/255, green: 217/255, blue: 97/255, opacity: 1) 
+        let semanticWarningWarningIcon = Color(.sRGB, red: 186/255, green: 117/255, blue: 6/255, opacity: 1) 
+        let semanticWarningWarningColor = Color(.sRGB, red: 139/255, green: 79/255, blue: 31/255, opacity: 1) 
+
+        // Error
+        let semanticErrorErrorColor = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
+        let semanticErrorErrorIcon = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
+        let semanticErrorErrorBorder = Color(.sRGB, red: 239/255, green: 134/255, blue: 116/255, opacity: 1) 
+        let semanticErrorErrorBackground = Color(.sRGB, red: 248/255, green: 215/255, blue: 211/255, opacity: 1) 
+        let semanticErrorErrorBackground = Color(.sRGB, red: 248/255, green: 215/255, blue: 211/255, opacity: 1) 
+        let semanticErrorErrorBorder = Color(.sRGB, red: 239/255, green: 134/255, blue: 116/255, opacity: 1) 
+        let semanticErrorErrorIcon = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
+        let semanticErrorErrorColor = Color(.sRGB, red: 182/255, green: 64/255, blue: 59/255, opacity: 1) 
+
+        // Text
+        let semanticTextTextInverse = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        let semanticTextTextSubtext = Color(.sRGB, red: 84/255, green: 94/255, blue: 95/255, opacity: 1) 
+        let semanticTextTextHeadline = Color(.sRGB, red: 41/255, green: 51/255, blue: 51/255, opacity: 1) 
+        let semanticTextTextBody = Color(.sRGB, red: 56/255, green: 65/255, blue: 65/255, opacity: 1) 
+        let semanticTextTextBody = Color(.sRGB, red: 56/255, green: 65/255, blue: 65/255, opacity: 1) 
+        let semanticTextTextHeadline = Color(.sRGB, red: 41/255, green: 51/255, blue: 51/255, opacity: 1) 
+        let semanticTextTextSubtext = Color(.sRGB, red: 84/255, green: 94/255, blue: 95/255, opacity: 1) 
+        let semanticTextTextInverse = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
     }
 }
